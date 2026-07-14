@@ -1,3 +1,9 @@
+// Crea un componente de selección por opciones usando React y Radix UI.
+// Permite agrupar varias opciones donde solo una puede estar seleccionada.
+// Define el contenedor del grupo y cada elemento individual del Radio.
+// Muestra un indicador visual cuando una opción está seleccionada.
+// Combina estilos predeterminados con clases CSS personalizadas.
+// Exporta los componentes RadioGroup y RadioGroupItem para reutilizarlos.
 "use client";
 
 import * as React from "react";
