@@ -1,3 +1,10 @@
+/*
+Este código crea un componente de alerta reutilizable para React.
+Permite mostrar mensajes informativos o de error con diferentes estilos,
+usando variantes, títulos y descripciones. Utiliza class-variance-authority
+para gestionar los estilos y una función de combinación de clases para
+personalizar su apariencia.
+*/
 import * as React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 
