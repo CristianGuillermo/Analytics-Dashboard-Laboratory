@@ -34,3 +34,6 @@ export default defineConfig({
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
 })
+// Configuración de Vite para un proyecto React con Tailwind CSS.
+// Define plugins necesarios, permite resolver recursos
+// crea un alias para la carpeta src y habilita la importación de archivos SVG y CSV.
