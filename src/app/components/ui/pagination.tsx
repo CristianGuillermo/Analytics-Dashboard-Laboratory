@@ -1,3 +1,9 @@
+// Crea un sistema de paginación usando React y componentes personalizados.
+// Permite dividir contenido en varias páginas y navegar entre ellas.
+// Define elementos como contenedor, enlaces, botones anterior, siguiente y puntos suspensivos.
+// Gestiona los estilos y estados de la página activa.
+// Combina estilos predeterminados con clases CSS personalizadas.
+// Exporta los componentes de paginación para reutilizarlos en la aplicación.
 import * as React from "react";
 import {
   ChevronLeftIcon,
