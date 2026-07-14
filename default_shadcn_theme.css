@@ -118,3 +118,7 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 }
+
+/* Define las variables globales de diseño de la aplicación, incluyendo colores,
+tipografías, bordes y estilos para modo claro y oscuro. También conecta estas
+variables con Tailwind CSS para reutilizar los estilos. */
