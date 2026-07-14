@@ -1,3 +1,9 @@
+// Indica que el componente se ejecuta en el lado del cliente.
+// Importa el sistema de temas y el componente de notificaciones de Sonner.
+// Crea un componente Toaster para mostrar mensajes emergentes.
+// Obtiene el tema actual de la aplicación para adaptar el estilo de las notificaciones.
+// Configura los colores y propiedades del Toaster según el tema seleccionado.
+// Exporta el componente Toaster para utilizarlo en la aplicación.
 "use client";
 
 import { useTheme } from "next-themes";
