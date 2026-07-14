@@ -155,3 +155,15 @@ export interface ClaseRegistro {
 
 // Export api object for convenience
 export const api = { checkHealth, getClases, saveClase, deleteClase, dtoToClase, claseToDTO };
+
+/*
+Este archivo crea un cliente de comunicación entre el frontend React y el servidor
+de Supabase mediante solicitudes HTTP. Define la URL del servicio, las cabeceras
+de autenticación y las funciones para verificar la conexión, obtener, guardar y
+eliminar registros de clases.
+
+También establece los tipos de datos usados por el sistema, como información de
+laboratorios, docentes, cursos y máquinas conectadas. Incluye conversores que
+transforman las fechas entre el formato enviado por la API (ISO string) y el
+formato utilizado dentro de la aplicación (Date), facilitando el manejo de datos.
+*/
