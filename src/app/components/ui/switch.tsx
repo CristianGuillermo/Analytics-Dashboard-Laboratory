@@ -1,3 +1,8 @@
+// Crea un componente Switch personalizado usando React y Radix UI.
+// Permite crear un interruptor de selección con estados activado y desactivado.
+// Combina las clases CSS predeterminadas con estilos personalizados.
+// Define el botón y el elemento interno que se mueve al cambiar de estado.
+// Exporta el componente Switch para reutilizarlo en la aplicación.
 "use client";
 
 import * as React from "react";
