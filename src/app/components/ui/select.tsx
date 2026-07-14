@@ -1,3 +1,10 @@
+// Crea un componente Select personalizado usando React y Radix UI.
+// Permite crear menús desplegables con opciones seleccionables.
+// Define elementos del Select como disparador, contenido, grupos, etiquetas y opciones.
+// Gestiona la apariencia, animaciones y comportamiento del menú desplegable.
+// Incluye iconos para indicar selección y desplazamiento entre opciones.
+// Combina estilos predeterminados con clases CSS personalizadas.
+// Exporta los componentes Select para reutilizarlos en la aplicación.
 "use client";
 
 import * as React from "react";
