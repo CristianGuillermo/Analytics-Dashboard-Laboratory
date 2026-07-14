@@ -1,3 +1,8 @@
+// Importa React para crear el componente.
+// Importa la función para combinar clases CSS.
+// Componente Textarea personalizado con estilos de Tailwind CSS.
+// Combina los estilos predeterminados con las clases adicionales recibidas.
+// Exporta el componente Textarea para utilizarlo en la aplicación.
 import * as React from "react";
 
 import { cn } from "./utils";
