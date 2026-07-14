@@ -1,3 +1,9 @@
+/*
+Este código crea un componente de carrusel para React usando Embla Carousel.
+Permite mostrar elementos deslizables en forma horizontal o vertical, con
+controles de navegación, soporte para teclado y botones para avanzar o
+retroceder entre elementos.
+*/
 "use client";
 
 import * as React from "react";
