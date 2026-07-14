@@ -1,3 +1,8 @@
+/*
+Este código crea componentes de avatar reutilizables para React usando Radix UI.
+Permite mostrar imágenes de perfil, un diseño circular y un contenido alternativo
+cuando la imagen no está disponible.
+*/
 "use client";
 
 import * as React from "react";
