@@ -1,3 +1,11 @@
+// Indica que este componente se ejecuta en el lado del cliente.
+// Importa React y los componentes base de Tooltip proporcionados por Radix UI.
+// Importa la función para combinar clases CSS de forma dinámica.
+// Componente que configura el proveedor del Tooltip y define el tiempo de espera antes de mostrarlo.
+// Componente principal que crea un Tooltip utilizando el proveedor configurado.
+// Componente que define el elemento que activa la aparición del Tooltip.
+// Componente que muestra el contenido del Tooltip con estilos personalizados y animaciones.
+// Exporta los componentes del Tooltip para poder utilizarlos en otras partes de la aplicación.
 "use client";
 
 import * as React from "react";
