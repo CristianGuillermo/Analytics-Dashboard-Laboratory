@@ -1,3 +1,9 @@
+/*
+Este código crea un componente Button reutilizable para React.
+Permite generar botones con diferentes estilos, tamaños y variantes como
+principal, secundario, error, enlace o contorno. Usa class-variance-authority
+para gestionar diseños y Slot de Radix UI para adaptarse a otros elementos.
+*/
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
