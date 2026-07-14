@@ -1,3 +1,10 @@
+// Crea un componente Sheet (panel lateral o ventana emergente) usando React y Radix UI.
+// Permite abrir, cerrar y controlar el panel mediante diferentes componentes.
+// Define el fondo de superposición y las animaciones al mostrar u ocultar el panel.
+// Configura la posición del Sheet (izquierda, derecha, arriba o abajo) y sus estilos.
+// Crea componentes adicionales para encabezado, pie, título y descripción del panel.
+// Combina estilos predeterminados con clases personalizadas.
+// Exporta los componentes del Sheet para reutilizarlos en la aplicación.
 "use client";
 
 import * as React from "react";
