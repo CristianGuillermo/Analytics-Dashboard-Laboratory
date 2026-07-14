@@ -1,3 +1,10 @@
+// Crea un sistema completo de barra lateral (Sidebar) usando React y componentes de Radix UI.
+// Gestiona el estado de apertura, cierre, versión móvil y atajos de teclado del Sidebar.
+// Utiliza un contexto para compartir la configuración del Sidebar entre sus componentes.
+// Permite mostrar diferentes elementos como menús, botones, encabezados, separadores y contenido.
+// Adapta automáticamente la interfaz según el tamaño de pantalla (móvil o escritorio).
+// Aplica estilos personalizados con Tailwind CSS y permite cambiar variantes y tamaños.
+// Exporta todos los componentes del Sidebar para reutilizarlos en la aplicación.
 "use client";
 
 import * as React from "react";
