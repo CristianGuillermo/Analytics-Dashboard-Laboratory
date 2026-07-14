@@ -2,10 +2,8 @@ import { Hono } from "npm:hono";
 import { cors } from "npm:hono/cors";
 import { logger } from "npm:hono/logger";
 import * as kv from "./kv_store.tsx";
-
 // ─── Types ────────────────────────────────────────────────────────────────────
 // Mirrors the frontend interfaces. Dates are serialized as ISO strings over HTTP.
-
 interface MaquinaEnClase {
   idComputadora: number;
   usuarioNombre?: string;
@@ -13,7 +11,6 @@ interface MaquinaEnClase {
   horaConexion?: string; // ISO string
   minutos?: number;
 }
-
 interface ClaseRegistro {
   idClase: number;
   docenteNombre: string;
@@ -28,13 +25,10 @@ interface ClaseRegistro {
   maquinas: MaquinaEnClase[];
   estado: "EN_CURSO" | "FINALIZADA";
 }
-
 // ─── KV keys ─────────────────────────────────────────────────────────────────
 const CLASES_KEY = "lab:clases";
-
 // ─── App ─────────────────────────────────────────────────────────────────────
 const app = new Hono();
-
 app.use("*", logger(console.log));
 app.use("/*", cors({
   origin: "*",
@@ -43,10 +37,8 @@ app.use("/*", cors({
   exposeHeaders: ["Content-Length"],
   maxAge: 600,
 }));
-
 // Health check
 app.get("/make-server-6b1387cf/health", (c) => c.json({ status: "ok" }));
-
 // ── GET /clases ── devuelve todas las clases almacenadas ──────────────────────
 app.get("/make-server-6b1387cf/clases", async (c) => {
   try {
@@ -57,7 +49,6 @@ app.get("/make-server-6b1387cf/clases", async (c) => {
     return c.json({ ok: false, error: msg }, 500);
   }
 });
-
 // ── POST /clases ── guarda una nueva clase (append) ───────────────────────────
 app.post("/make-server-6b1387cf/clases", async (c) => {
   try {
@@ -75,7 +66,6 @@ app.post("/make-server-6b1387cf/clases", async (c) => {
     return c.json({ ok: false, error: msg }, 500);
   }
 });
-
 // ── DELETE /clases/:id ── elimina una clase por ID ───────────────────────────
 app.delete("/make-server-6b1387cf/clases/:id", async (c) => {
   try {
@@ -88,7 +78,6 @@ app.delete("/make-server-6b1387cf/clases/:id", async (c) => {
     return c.json({ ok: false, error: msg }, 500);
   }
 });
-
 // ── DELETE /clases ── limpia todas las clases (útil para desarrollo) ──────────
 app.delete("/make-server-6b1387cf/clases", async (c) => {
   try {
@@ -99,5 +88,4 @@ app.delete("/make-server-6b1387cf/clases", async (c) => {
     return c.json({ ok: false, error: msg }, 500);
   }
 });
-
 Deno.serve(app.fetch);
