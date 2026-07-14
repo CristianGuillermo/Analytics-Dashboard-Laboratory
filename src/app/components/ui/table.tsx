@@ -1,3 +1,8 @@
+// Crea componentes personalizados de tablas usando React y estilos de Tailwind CSS.
+// Permite construir tablas con una estructura organizada: encabezado, cuerpo, filas,
+// columnas, pie de tabla y descripción.
+// Combina clases CSS predeterminadas con clases adicionales para personalizar estilos.
+// Exporta los componentes de tabla para reutilizarlos en diferentes partes de la aplicación.
 "use client";
 
 import * as React from "react";
