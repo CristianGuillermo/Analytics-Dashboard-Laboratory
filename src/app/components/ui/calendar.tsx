@@ -1,3 +1,9 @@
+/*
+Este código crea un componente de calendario para React usando la librería
+react-day-picker. Permite mostrar fechas, seleccionar días y personalizar
+su apariencia con estilos, botones de navegación y compatibilidad con
+diferentes modos de selección.
+*/
 "use client";
 
 import * as React from "react";
