@@ -1,3 +1,8 @@
+/*
+Este archivo crea componentes reutilizables de un acordeón usando React y
+Radix UI. Permite mostrar y ocultar contenido mediante secciones expandibles,
+incluyendo estilos personalizados, animaciones y un ícono indicador.
+*/
 "use client";
 
 import * as React from "react";
