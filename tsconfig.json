@@ -22,3 +22,6 @@
   },
   "include": ["src", "utils"]
 }
+// Configuración de TypeScript para un proyecto React.
+// Define compatibilidad con ES2020, uso de JSX, reglas estrictas,
+// rutas personalizadas con "@", y archivos que serán revisados.
