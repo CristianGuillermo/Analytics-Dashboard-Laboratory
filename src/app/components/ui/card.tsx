@@ -1,3 +1,9 @@
+/*
+Este código crea componentes de tarjetas reutilizables para React.
+Permite estructurar información en bloques con encabezado, título,
+descripción, contenido y pie de tarjeta, aplicando estilos personalizados
+para organizar mejor la interfaz.
+*/
 import * as React from "react";
 
 import { cn } from "./utils";
