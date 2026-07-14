@@ -1,3 +1,9 @@
+/*
+Este código crea componentes de navegación tipo Breadcrumb para React.
+Permite mostrar la ruta o ubicación actual dentro de una aplicación,
+incluyendo enlaces, separadores, página actual y un indicador de opciones
+cuando la ruta es demasiado larga.
+*/
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { ChevronRight, MoreHorizontal } from "lucide-react";
