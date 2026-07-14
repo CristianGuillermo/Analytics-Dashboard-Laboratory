@@ -1,3 +1,9 @@
+/*
+Este código crea un componente Badge reutilizable para React.
+Permite mostrar etiquetas pequeñas con diferentes estilos como principal,
+secundario, error o contorno. Usa variantes de diseño para cambiar su
+apariencia y puede adaptarse a otros elementos mediante Slot de Radix UI.
+*/
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
