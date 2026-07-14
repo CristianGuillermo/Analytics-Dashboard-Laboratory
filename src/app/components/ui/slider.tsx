@@ -1,3 +1,9 @@
+// Crea un componente Slider personalizado utilizando React y Radix UI.
+// Permite seleccionar valores dentro de un rango mediante un control deslizante.
+// Calcula los valores iniciales o actuales del Slider según las propiedades recibidas.
+// Define la estructura del Slider: contenedor, pista, rango seleccionado y botones deslizables.
+// Combina estilos predeterminados con clases CSS personalizadas.
+// Exporta el componente Slider para reutilizarlo en la aplicación.
 "use client";
 
 import * as React from "react";
