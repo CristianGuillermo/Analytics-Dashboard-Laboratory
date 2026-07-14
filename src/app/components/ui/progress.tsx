@@ -1,3 +1,9 @@
+// Crea un componente de barra de progreso usando React y Radix UI.
+// Permite mostrar visualmente el avance de una tarea mediante un porcentaje.
+// Calcula la posición del indicador según el valor recibido.
+// Aplica estilos y animaciones para representar el progreso.
+// Combina estilos predeterminados con clases CSS personalizadas.
+// Exporta el componente Progress para reutilizarlo en la aplicación.
 "use client";
 
 import * as React from "react";
