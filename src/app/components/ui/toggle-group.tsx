@@ -1,3 +1,13 @@
+// Indica que el componente se ejecuta en el lado del cliente.
+// Importa React, ToggleGroup de Radix UI y herramientas para manejar variantes de estilos.
+// Importa funciones para combinar clases CSS y los estilos del componente Toggle.
+// Crea un contexto para compartir la configuración de tamaño y variante entre elementos.
+// Componente que agrupa varios botones Toggle y aplica estilos generales.
+// Proporciona la configuración del grupo a sus elementos hijos.
+// Componente que representa cada botón dentro del grupo Toggle.
+// Usa el contexto del grupo para aplicar automáticamente sus estilos.
+// Exporta los componentes ToggleGroup y ToggleGroupItem para reutilizarlos.
+
 "use client";
 
 import * as React from "react";
