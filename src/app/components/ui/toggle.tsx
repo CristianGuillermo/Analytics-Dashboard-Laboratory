@@ -1,3 +1,12 @@
+// Indica que este componente se ejecuta en el lado del cliente.
+// Importa React y el componente Toggle base de Radix UI.
+// Importa herramientas para crear variantes de estilos y manejar sus propiedades.
+// Importa la función para combinar clases CSS.
+// Define las diferentes variantes y tamaños de estilos que tendrá el botón Toggle.
+// Configura los estilos predeterminados cuando no se especifica una variante o tamaño.
+// Componente Toggle que crea un botón activable con estilos personalizados.
+// Combina las clases definidas con las clases adicionales enviadas por el usuario.
+// Exporta el componente Toggle y sus variantes de estilos para reutilizarlos.
 "use client";
 
 import * as React from "react";
