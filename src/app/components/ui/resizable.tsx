@@ -1,3 +1,9 @@
+// Crea componentes de paneles redimensionables usando React y react-resizable-panels.
+// Permite dividir la interfaz en secciones ajustables mediante el cambio de tamaño.
+// Define grupos de paneles, paneles individuales y controles para redimensionarlos.
+// Agrega un controlador visual para facilitar el ajuste de tamaño.
+// Combina estilos predeterminados con clases CSS personalizadas.
+// Exporta los componentes para reutilizarlos en la aplicación.
 "use client";
 
 import * as React from "react";
