@@ -1,3 +1,11 @@
+// Indica que el componente se ejecuta en el lado del cliente.
+// Importa React y los componentes base de Tabs de Radix UI.
+// Importa la función para combinar clases CSS.
+// Componente principal que crea la estructura de pestañas.
+// Componente que contiene la lista de opciones de pestañas.
+// Componente que representa cada botón de una pestaña.
+// Componente que muestra el contenido asociado a una pestaña.
+// Exporta los componentes de Tabs para reutilizarlos.
 "use client";
 
 import * as React from "react";
