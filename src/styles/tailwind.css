@@ -2,3 +2,6 @@
 @source '../**/*.{js,ts,jsx,tsx}';
 
 @import 'tw-animate-css';
+
+/* Configura Tailwind CSS indicando los archivos donde buscar estilos,
+e importa las animaciones adicionales para utilizarlas en la aplicación. */
