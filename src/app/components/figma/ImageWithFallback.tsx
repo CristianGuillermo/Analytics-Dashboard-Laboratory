@@ -25,3 +25,13 @@ export function ImageWithFallback(props: React.ImgHTMLAttributes<HTMLImageElemen
     <img src={src} alt={alt} className={className} style={style} {...rest} onError={handleError} />
   )
 }
+
+/*
+Este componente de React crea una imagen con manejo automático de errores.
+Intenta cargar la imagen proporcionada y, si ocurre un fallo, muestra una
+imagen alternativa para evitar que la interfaz quede vacía o rota.
+
+Utiliza useState para controlar si la carga de la imagen falló y recibe las
+propiedades normales de una etiqueta <img>, permitiendo reutilizar estilos,
+clases y atributos en diferentes partes de la aplicación.
+*/
