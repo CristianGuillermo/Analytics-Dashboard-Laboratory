@@ -8,3 +8,6 @@ supportedArchitectures:
     - arm64
   libc:
     - glibc
+
+# Configuración de paquetes que define las arquitecturas compatibles.
+# Permite el uso en sistemas Linux con procesadores x64 y ARM64 usando glibc.
