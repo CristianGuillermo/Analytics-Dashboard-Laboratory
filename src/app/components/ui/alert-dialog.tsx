@@ -1,3 +1,8 @@
+/*
+Este archivo crea componentes reutilizables para diálogos de alerta usando
+React y Radix UI. Permite mostrar ventanas de confirmación con título,
+descripción, botones de acción y estilos personalizados.
+*/
 "use client";
 
 import * as React from "react";
