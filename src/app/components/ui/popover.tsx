@@ -1,3 +1,9 @@
+// Crea un componente Popover usando React y Radix UI.
+// Permite mostrar contenido emergente asociado a un elemento de la interfaz.
+// Define el elemento que activa el Popover y el contenido mostrado.
+// Configura la posición, estilos y animaciones del panel emergente.
+// Combina estilos predeterminados con clases CSS personalizadas.
+// Exporta los componentes Popover para reutilizarlos en la aplicación.
 "use client";
 
 import * as React from "react";
