@@ -1,10 +1,10 @@
+// Este archivo crea una capa personalizada sobre Recharts 
+//para que los gráficos de la aplicación sean más fáciles 
+//de usar y mantengan el mismo diseño visual.
 "use client";
-
 import * as React from "react";
 import * as RechartsPrimitive from "recharts";
-
 import { cn } from "./utils";
-
 // Format: { THEME_NAME: CSS_SELECTOR }
 const THEMES = { light: "", dark: ".dark" } as const;
 
