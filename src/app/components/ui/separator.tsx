@@ -1,3 +1,10 @@
+// Indica que el componente se ejecuta en el lado del cliente.
+// Importa React y el componente Separator de Radix UI.
+// Importa la función para combinar clases CSS.
+// Crea un separador visual horizontal o vertical con estilos personalizados.
+// Permite configurar la orientación y si el separador es decorativo.
+// Combina estilos predeterminados con clases adicionales.
+// Exporta el componente Separator para reutilizarlo en la aplicación.
 "use client";
 
 import * as React from "react";
