@@ -1,3 +1,9 @@
+// Crea un área de desplazamiento personalizada usando React y Radix UI.
+// Permite mostrar contenido con barras de desplazamiento verticales u horizontales.
+// Define el contenedor, la zona visible y la barra de desplazamiento.
+// Personaliza los estilos de la barra y el control deslizante.
+// Combina estilos predeterminados con clases CSS adicionales.
+// Exporta los componentes ScrollArea y ScrollBar para reutilizarlos.
 "use client";
 
 import * as React from "react";
